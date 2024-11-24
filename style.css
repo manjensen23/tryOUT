@@ -1,0 +1,54 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 56px;
+    }
+    #hero {
+        height: 100vh;
+        color: white;
+    }
+    section {
+        scroll-margin-top: 56px;
+    }
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .glow-text {
+        text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+    }
+    .card {
+        transition: transform 0.6s ease, box-shadow 0.3s ease;
+        will-change: transform;
+    }
+        .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    #logo{
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 2px;
+    }
+    #logo span{
+        color: red;
+    }
+    .nav-item .nav-link{
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        transition: 0.3 ease;
+    }
+    .nav-item .nav-link:hover{
+        background: red;
+        color: white;
+    }

@@ -1,0 +1,146 @@
+<!--
+Nama    : Bada' Amru Almuhtadin
+NRP     : 3124510085
+Prodi   : D3PJJ TI
+-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar dan Tryout ASN</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="logo"><span>Try</span>OUT ASN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="materi.html">Materi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tryout.html">Tryout</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="text-center text-white d-flex align-items-center justify-content-center" style="background: url('img/freepik_student.jpg') no-repeat center/cover; height: 100vh;">
+        <div class="container">
+            <h1 class="glow-text">Persiapkan Ujian CPNS & PPPK Anda!</h1>
+            <p class="glow-text">Platform belajar online lengkap dengan materi dan simulasi soal.</p>
+            <a href="tryout.html" class="btn btn-primary btn-lg">Mulai Tryout</a>
+        </div>
+    </section>
+
+    <!-- Fitur -->
+    <section id="fitur" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Fitur Utama</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Materi Belajar</h4>
+                    <p>Akses ribuan materi yang dirancang khusus untuk persiapan CPNS & PPPK.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Simulasi Tryout</h4>
+                    <p>Uji kemampuan Anda dengan tryout soal seperti ujian sebenarnya.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Statistik Kemajuan</h4>
+                    <p>Analisis hasil tryout Anda untuk mengetahui progres belajar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistik -->
+    <section id="statistik" class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Statistik Platform</h2>
+            <div class="row">
+                <div class="col-md-3"><h3>10.000+</h3><p>Pengguna</p></div>
+                <div class="col-md-3"><h3>500+</h3><p>Tryout</p></div>
+                <div class="col-md-3"><h3>1.000+</h3><p>Materi Belajar</p></div>
+                <div class="col-md-3"><h3>98%</h3><p>Tingkat Kepuasan</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="bg-dark text-white text-center py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Apa Kata Mereka?</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <blockquote>
+                        <p>
+                        "Platform ini sangat membantu saya lulus CPNS!"
+                        </p>
+                        <footer class="blockquote-footer">Andi</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <blockquote>
+                        <p>
+                        "Materi belajarnya lengkap dan mudah dipahami."
+                        </p>
+                        <footer class="blockquote-footer">Siti</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <blockquote>
+                        <p>
+                        "Tryout-nya mirip sekali dengan ujian aslinya."
+                        </p>
+                        <footer class="blockquote-footer">Budi</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Berikan Feedback Anda</h2>
+            <form action="submit_feedback.php" method="POST" class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nama</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Pesan/Feedback</label>
+                    <textarea id="message" name="message" rows="4" class="form-control" placeholder="Tuliskan feedback Anda" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Kirim Feedback</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 TryOUT ASN. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
